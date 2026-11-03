@@ -1,0 +1,14 @@
+[project]
+name = "mtg_judge_assistant"
+version = "0.1.0"
+description = "MTG Judge Assistant App"
+dependencies = [
+    "flet",
+    "requests"
+]
+
+[tool.flet]
+site_dir = "build/web"
+
+[tool.flet.app]
+path = "."
